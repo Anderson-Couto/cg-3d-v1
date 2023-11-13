@@ -1,0 +1,27 @@
+# Cache/options used by clangd
+.clangd
+.cache
+
+# IntelliJ IDEA
+.idea
+*.iml
+
+# Visual Studio and VS Code
+.vs
+.vscode
+.devcontainer
+
+# Build directories
+build
+out
+cmake-build*
+
+# Conan imports for Dear ImGui
+bindings
+
+# CMake build configuration
+CMakeSettings.json
+compile_commands.json
+
+# Git
+*.stackdump
